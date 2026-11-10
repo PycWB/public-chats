@@ -1,0 +1,14 @@
+[
+    {
+        "content": "<p><strong>Problem</strong></p>\n<p>In rare cases, HTCondor fails to transfer output files back to the working directory. This may result in:</p>\n<ol>\n<li>\n<p><strong>Corrupted catalog fragments</strong> after an unsuccessful transfer.</p>\n</li>\n<li>\n<p><strong>Missing catalog fragments</strong>, where an existing file was removed but its replacement was not successfully transferred.</p>\n</li>\n</ol>\n<p><strong>Solution / Workaround</strong></p>\n<p>pycWB provides the <code>repair-catalog</code> command to recover corrupted catalog fragments.</p>\n<p>For a corrupted fragment that still exists:</p>\n<p><code>pycwb repair-catalog config/user_parameters.yaml --work-dir . --fragment 12345 --apply</code></p>\n<p>For a missing fragment, first create an empty placeholder file, then run the repair command:</p>\n<div class=\"codehilite\"><pre><span></span><code>touch catalog/fragment/catalog_12345.parquet\npycwb repair-catalog config/user_parameters.yaml --work-dir . --fragment 12345 --apply\n</code></pre></div>\n<p>Replace <code>12345</code> with the affected batch ID.</p>\n<p><strong>Note:</strong> The empty file is only a workaround to allow the repair procedure to process a missing fragment. It is not a valid Parquet file on its own. Verify the repaired fragment and catalog before continuing the analysis.</p>\n<p><strong>Status:</strong> Workaround available. The underlying HTCondor transfer failure is not addressed by this procedure.</p>",
+        "id": 638692071,
+        "sender_full_name": "Yumeng Xu",
+        "timestamp": 1794223360
+    },
+    {
+        "content": "<p><span class=\"user-mention silent\" data-user-id=\"1221927\">Yumeng Xu</span> has marked this topic as resolved.</p>",
+        "id": 638692080,
+        "sender_full_name": "Notification Bot",
+        "timestamp": 1794223363
+    }
+]

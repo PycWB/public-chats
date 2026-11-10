@@ -1,0 +1,26 @@
+<html>
+<head><meta charset="utf-8"><title>v1.2 dev and testing · developments · Zulip Chat Archive</title></head>
+<h2>Stream: <a href="https://pycwb.github.io/public-chats/stream/651413-developments/index.html">developments</a></h2>
+<h3>Topic: <a href="https://pycwb.github.io/public-chats/stream/651413-developments/topic/v1.2E2.20dev.20and.20testing.html">v1.2 dev and testing</a></h3>
+
+<hr>
+
+<base href="https://pycwb.zulipchat.com">
+
+<head><link href="https://pycwb.github.io/public-chats/style.css" rel="stylesheet"></head>
+
+<a name="639064172"></a>
+<h4><a href="https://pycwb.zulipchat.com#narrow/stream/651413-developments/topic/v1.2%20dev%20and%20testing/near/639064172" class="zl"><img src="https://pycwb.github.io/public-chats/assets/img/zulip.svg" alt="view this post on Zulip" style="width:20px;height:20px;"></a> Yumeng Xu <a href="https://pycwb.github.io/public-chats/stream/651413-developments/topic/v1.2E2.20dev.20and.20testing.html#639064172">(Nov 10 2026 at 07:53)</a>:</h4>
+<p>The v1.2 cpu accelerated version is ready for testing, current preliminary testing shows no difference with v1.1.0rc1. To install, you can use</p>
+<div class="codehilite" data-code-language="Bash"><pre><span></span><code>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>pycwb-v1.2.0a1<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>.13<span class="w"> </span>pip<span class="w"> </span>nds2-client<span class="w"> </span>python-nds2-client<span class="w"> </span>lalsuite<span class="w"> </span>python-ligo-lw
+conda<span class="w"> </span>activate<span class="w"> </span>pycwb-v1.2.0a1
+
+pip<span class="w"> </span>install<span class="w">  </span><span class="nv">pycwb</span><span class="o">==</span><span class="m">1</span>.2.0a1
+</code></pre></div>
+<p>It will use the <code>wdm-wavelet=0.5.0a1</code>.</p>
+<p>Some post-processing packages are not included by default like <code>XGBoost</code> and <code>rich</code></p>
+
+
+
+<hr><p>Last updated: Nov 10 2026 at 14:12 UTC</p>
+</html>

@@ -1,0 +1,8 @@
+[
+    {
+        "content": "<p>The v1.2 cpu accelerated version is ready for testing, current preliminary testing shows no difference with v1.1.0rc1. To install, you can use</p>\n<div class=\"codehilite\" data-code-language=\"Bash\"><pre><span></span><code>conda<span class=\"w\"> </span>create<span class=\"w\"> </span>-n<span class=\"w\"> </span>pycwb-v1.2.0a1<span class=\"w\"> </span>-c<span class=\"w\"> </span>conda-forge<span class=\"w\"> </span><span class=\"nv\">python</span><span class=\"o\">=</span><span class=\"m\">3</span>.13<span class=\"w\"> </span>pip<span class=\"w\"> </span>nds2-client<span class=\"w\"> </span>python-nds2-client<span class=\"w\"> </span>lalsuite<span class=\"w\"> </span>python-ligo-lw\nconda<span class=\"w\"> </span>activate<span class=\"w\"> </span>pycwb-v1.2.0a1\n\npip<span class=\"w\"> </span>install<span class=\"w\">  </span><span class=\"nv\">pycwb</span><span class=\"o\">==</span><span class=\"m\">1</span>.2.0a1\n</code></pre></div>\n<p>It will use the <code>wdm-wavelet=0.5.0a1</code>.</p>\n<p>Some post-processing packages are not included by default like <code>XGBoost</code> and <code>rich</code></p>",
+        "id": 639064172,
+        "sender_full_name": "Yumeng Xu",
+        "timestamp": 1794297235
+    }
+]

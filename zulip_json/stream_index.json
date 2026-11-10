@@ -1,0 +1,56 @@
+{
+    "streams": {
+        "announcements": {
+            "id": 651402,
+            "latest_id": 0,
+            "topic_data": {}
+        },
+        "developments": {
+            "id": 651413,
+            "latest_id": 639064172,
+            "topic_data": {
+                "v1.1.1: documentation and visualization": {
+                    "latest_date": 1794263671,
+                    "size": 2
+                },
+                "v1.2 dev and testing": {
+                    "latest_date": 1794297235,
+                    "size": 1
+                },
+                "v1.2 priorities and roadmap": {
+                    "latest_date": 1793726343,
+                    "size": 1
+                },
+                "v1.3 priorities and roadmap": {
+                    "latest_date": 1793889006,
+                    "size": 1
+                }
+            }
+        },
+        "general": {
+            "id": 649423,
+            "latest_id": 637268681,
+            "topic_data": {
+                "greetings": {
+                    "latest_date": 1793196699,
+                    "size": 2
+                },
+                "new channels": {
+                    "latest_date": 1793725957,
+                    "size": 5
+                }
+            }
+        },
+        "help": {
+            "id": 651401,
+            "latest_id": 638692080,
+            "topic_data": {
+                "✔ HTCondor: Recovering missing or corrupted catalog fragm...": {
+                    "latest_date": 1794223363,
+                    "size": 2
+                }
+            }
+        }
+    },
+    "time": 1794319966.7403572
+}
