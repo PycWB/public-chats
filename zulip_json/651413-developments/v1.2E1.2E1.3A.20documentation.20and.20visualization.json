@@ -10,5 +10,11 @@
         "id": 638886484,
         "sender_full_name": "Notification Bot",
         "timestamp": 1794263671
+    },
+    {
+        "content": "<p>Hi, <span class=\"user-mention\" data-user-id=\"1226890\">@Jiyoon Sun</span> Thanks for finding the issue <a href=\"https://git.ligo.org/yumeng.xu/pycwb/-/merge_requests/130/diffs\">https://git.ligo.org/yumeng.xu/pycwb/-/merge_requests/130/diffs</a>. Could you change the MR target from main to branch <code>release/v1.1.1</code>?</p>",
+        "id": 640061307,
+        "sender_full_name": "Yumeng Xu",
+        "timestamp": 1794571420
     }
 ]
