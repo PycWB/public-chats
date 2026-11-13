@@ -7,11 +7,11 @@
         },
         "developments": {
             "id": 651413,
-            "latest_id": 640061307,
+            "latest_id": 640090424,
             "topic_data": {
                 "v1.1.1: documentation and visualization": {
-                    "latest_date": 1794571420,
-                    "size": 3
+                    "latest_date": 1794577951,
+                    "size": 6
                 },
                 "v1.2 dev and testing": {
                     "latest_date": 1794297235,
@@ -52,5 +52,5 @@
             }
         }
     },
-    "time": 1794573796.62366
+    "time": 1794600620.8033562
 }
