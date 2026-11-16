@@ -50,7 +50,17 @@
                     "size": 2
                 }
             }
+        },
+        "help & discussions": {
+            "id": 651401,
+            "latest_id": 638692080,
+            "topic_data": {
+                "✔ HTCondor: Recovering missing or corrupted catalog fragm...": {
+                    "latest_date": 1794223363,
+                    "size": 2
+                }
+            }
         }
     },
-    "time": 1794817981.3770187
+    "time": 1794855124.8026037
 }
