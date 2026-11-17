@@ -29,8 +29,12 @@
         },
         "general": {
             "id": 649423,
-            "latest_id": 637268681,
+            "latest_id": 641098784,
             "topic_data": {
+                "Zulip updates": {
+                    "latest_date": 1794893846,
+                    "size": 3
+                },
                 "greetings": {
                     "latest_date": 1793196699,
                     "size": 2
@@ -62,5 +66,5 @@
             }
         }
     },
-    "time": 1794881584.9063048
+    "time": 1794912329.1444046
 }
